@@ -1,23 +1,23 @@
-package com.example.examplemod.items;
+package com.example.examplemod.items.food;
+
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.init.ModItems;
 import com.example.examplemod.util.IHasModel;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
-public class ItemBase extends Item implements IHasModel {
 
-    public ItemBase(String name){
+public class FoodBase extends ItemFood implements IHasModel
+{
+    public FoodBase(String name, int amount, float saturation, boolean isAnimalFood){
+        super(amount, saturation, isAnimalFood);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(ExampleMod.modtab);
+
         ModItems.ITEMS.add(this);
     }
 
     @Override
-    public void registerModels()
-    {
-
+    public void registerModels() {
         ExampleMod.proxy.registerItemRenderer(this, 0, "inventory");
     }
 }

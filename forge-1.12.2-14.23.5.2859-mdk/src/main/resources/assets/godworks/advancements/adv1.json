@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": {
+      "text": "A Horrible Mistake"
+    },
+    "description": {
+      "text": "Eat what should not be eaten"
+    },
+    "icon": {
+      "item": "godworks:poo"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat poo": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "count": {
+            "min": 1,
+            "max": 64
+          },
+          "item": "godworks:poo"
+        }
+      }
+    }
+  },
+  "parent": "godworks:root"
+}
