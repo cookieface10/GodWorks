@@ -4,13 +4,13 @@ import com.example.examplemod.init.ModItems;
 import com.example.examplemod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 public class ItemBase extends Item implements IHasModel {
 
     public ItemBase(String name){
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.FOOD);
-
+        setCreativeTab(ExampleMod.modtab);
         ModItems.ITEMS.add(this);
     }
 

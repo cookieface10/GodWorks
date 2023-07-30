@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+
+  "key":
+  {
+    "P":
+    {
+      "item": "godworks:poo"
+    }
+  },
+
+  "result":
+  {
+    "item": "godworks:poo_block",
+    "count": 1
+  }
+}

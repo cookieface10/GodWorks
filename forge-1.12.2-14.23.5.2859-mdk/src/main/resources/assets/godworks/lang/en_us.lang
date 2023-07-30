@@ -1,1 +1,8 @@
+//Items
 item.poo.name=Poop
+
+//Blocks
+tile.poo_block.name=Block of Poo
+
+//GUI
+itemGroup.modtab=God Works

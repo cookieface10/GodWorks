@@ -2,6 +2,8 @@ package com.example.examplemod.init;
 
 import net.minecraft.item.Item;
 
+import net.minecraft.item.ItemFood;
+
 import java.util.ArrayList;
 
 import  java.util.List;
