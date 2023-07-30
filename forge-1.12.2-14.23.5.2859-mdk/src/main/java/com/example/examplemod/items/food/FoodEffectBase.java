@@ -8,6 +8,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class FoodEffectBase extends FoodBase{
+
     PotionEffect effect;
     public FoodEffectBase(String name, int amount, float saturation, boolean isAnimalFood, PotionEffect effect){
         super(name, amount, saturation, isAnimalFood);
@@ -15,6 +16,9 @@ public class FoodEffectBase extends FoodBase{
 
         this.effect = effect;
     }
+
+
+
 
     @Override
     protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player){
