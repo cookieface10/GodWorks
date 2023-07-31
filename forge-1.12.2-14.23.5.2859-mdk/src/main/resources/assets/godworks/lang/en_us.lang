@@ -9,5 +9,12 @@ item.healing_sword.name=Healing Sword
 //Blocks
 tile.poo_block.name=Block of Poo
 
+//Armor
+item.helmet_emerald.name=Emerald Helmet
+item.chestplate_emerald.name=Emerald Chestplate
+item.leggings_emerald.name=Emerald Leggings
+item.boots_emerald.name=Emerald Boots
+
+
 //GUI
 itemGroup.modtab=God Works
