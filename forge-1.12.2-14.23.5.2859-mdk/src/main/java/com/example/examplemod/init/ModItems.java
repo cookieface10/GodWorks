@@ -26,8 +26,9 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_EMERALD = EnumHelper.addToolMaterial("material_emerald", 3, 32, 7.0F, 2.5F, 20);
     public static final Item.ToolMaterial MATERIAL_HEALING = EnumHelper.addToolMaterial("material_healing", 0, 32, 8.0f, 2.5f, 20);
     public static final ItemArmor.ArmorMaterial ARMOR_EMERALD = EnumHelper.addArmorMaterial("armor emerald", ExampleMod.MODID + ":emerald", 1300, new int [] {4, 7, 9, 5}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3);
+
     //items
-    public static final Item POO = new FoodEffectBase("poo", 1, 0, false, new PotionEffect(MobEffects.POISON, 2* (60 * 20), 1, false, true));
+    public static final Item POO = new FoodEffectBase("poo", 1, 0, false, new PotionEffect(MobEffects.POISON, 2* (60 * 20), 254, false, true));
 
     //Tools
     public static final ItemSword EMERALD_SWORD = new ToolSword("emerald_sword", MATERIAL_EMERALD);
