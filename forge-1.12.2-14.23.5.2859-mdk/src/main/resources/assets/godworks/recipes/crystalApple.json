@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " P ",
+    "PCP",
+    " P "
+  ],
+
+  "key":
+  {
+    "P":
+    {
+      "item": "minecraft:potion",
+      "tag":"{Potion:minecraft:regeneration}",
+      "count": 1
+    },
+    "C":
+    {
+      "item": "minecraft:golden_apple",
+      "data": 0,
+      "count": 1
+    }
+
+  },
+
+  "result":
+  {
+    "item": "godworks:crystal_apple",
+    "count": 8
+  }
+}

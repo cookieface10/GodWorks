@@ -5,6 +5,8 @@ import com.example.examplemod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+
 public class ItemBase extends Item implements IHasModel {
 
     public ItemBase(String name){
@@ -17,7 +19,7 @@ public class ItemBase extends Item implements IHasModel {
     @Override
     public void registerModels()
     {
-
+        
         ExampleMod.proxy.registerItemRenderer(this, 0, "inventory");
     }
 }
