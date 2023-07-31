@@ -51,6 +51,6 @@ public class ExampleMod
     @EventHandler
     public void serverInit(FMLServerStartingEvent event)
     {
-        //RegistryHandler.serverRegistries(event);
+        RegistryHandler.serverRegistries(event);
     }
 }
