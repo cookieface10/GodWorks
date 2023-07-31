@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "text": "A gross fate"
+    },
+    "description": {
+      "text": "Place something smelly"
+    },
+    "icon": {
+      "item": "godworks:poo_block"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Place poo": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "godworks:poo_block"
+        }
+      }
+  },
+  "parent": "godworks:root"
+}
