@@ -33,13 +33,15 @@ public class ExampleMod
 
     //private static Logger logger;
 
-
+    
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         RegistryHandler.preInitRegistries(event);
     }
+
+
 
     @EventHandler
     public void init(FMLInitializationEvent event)
