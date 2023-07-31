@@ -13,6 +13,6 @@ public class ModTab extends CreativeTabs
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(ModItems.HEALING_SWORD);
+        return new ItemStack(ModItems.POO);
     }
 }

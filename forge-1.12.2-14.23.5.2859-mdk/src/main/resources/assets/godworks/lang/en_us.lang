@@ -6,8 +6,7 @@ item.emerald_pickaxe.name=Emerald Pickaxe
 item.emerald_axe.name=Emerald Axe
 item.healing_sword.name=Healing Sword
 item.crystal_apple.name=Crystal Apple
-item.test_test.name=Testing
-item.heal_sword.name=Healing Sword
+
 
 //Blocks
 tile.poo_block.name=Block of Poo
