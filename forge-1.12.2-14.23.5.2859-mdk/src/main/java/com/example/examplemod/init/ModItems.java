@@ -30,7 +30,7 @@ public class ModItems {
     public static final ItemArmor.ArmorMaterial ARMOR_EMERALD = EnumHelper.addArmorMaterial("armor emerald", ExampleMod.MODID + ":emerald", 1300, new int [] {3, 6, 7, 3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1);
 
     //items
-    public static final Item POO = new FoodEffectBase("poo", 1, 0, false, new PotionEffect(MobEffects.POISON, 2* (60 * 20), 40, false, true));
+    public static final Item POO = new FoodEffectBase("poop", 1, 0, false, new PotionEffect(MobEffects.POISON, 2* (60 * 20), 40, false, true));
 
     public static final Item CRYSTALIZED_APPLE = new FoodEffectBaseGlowing("crystal_apple", 10, 10, false, new PotionEffect(MobEffects.REGENERATION,  20, 30, true, true));
 

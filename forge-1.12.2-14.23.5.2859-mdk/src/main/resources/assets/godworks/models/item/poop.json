@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "godworks:items/poo"
+    "layer0": "godworks:items/poop"
   }
 }

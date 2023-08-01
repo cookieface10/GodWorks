@@ -7,7 +7,7 @@
             "text": "Welcome"
         },
         "icon": {
-            "item": "godworks:poo"
+            "item": "godworks:poop"
         },
         "frame": "task",
         "show_toast": true,

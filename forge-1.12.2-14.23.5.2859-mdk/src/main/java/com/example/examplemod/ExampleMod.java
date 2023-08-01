@@ -38,6 +38,7 @@ public class ExampleMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+
         RegistryHandler.preInitRegistries(event);
     }
 
@@ -49,6 +50,7 @@ public class ExampleMod
     @EventHandler
     public void serverInit(FMLServerStartingEvent event)
     {
+
         RegistryHandler.serverRegistries(event);
     }
 }
