@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "godworks:blueportal"
+    },
+    "title": {
+      "text": "Traveler"
+    },
+    "description": {
+      "text": "Enter a unnamed dimension"
+    }
+  },
+  "parent": "godworks:root",
+  "criteria": {
+    "in_bl": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "Land"
+      }
+    }
+  }
+}
