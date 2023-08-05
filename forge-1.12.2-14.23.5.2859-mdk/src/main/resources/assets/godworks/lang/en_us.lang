@@ -7,7 +7,7 @@ item.emerald_axe.name=Emerald Axe
 item.heal_sword.name=Healing Sword
 item.crystal_apple.name=Crystal Apple
 item.tester_item.name=Testing Item
-
+item.movement_item.name=Booster
 
 //Blocks
 tile.poo_block.name=Block of Poo

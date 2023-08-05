@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+
+  "key":
+  {
+    "D":
+    {
+      "item": "minecraft:diamond"
+    },
+    "P":
+    {
+      "item": "godworks:poop"
+    }
+
+  },
+
+  "result": {
+    "item": "godworks:movement_item"
+
+  }
+}

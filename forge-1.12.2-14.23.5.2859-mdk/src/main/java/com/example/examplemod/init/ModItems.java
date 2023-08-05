@@ -2,6 +2,7 @@ package com.example.examplemod.init;
 
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.items.HealingSword;
+import com.example.examplemod.items.MovementItem;
 import com.example.examplemod.items.TestingItem;
 import com.example.examplemod.items.armor.ArmorBase;
 import com.example.examplemod.items.food.FoodEffectBase;
@@ -37,7 +38,7 @@ public class ModItems {
     //Fancy items (items with special features)
     public static final Item HEALING_SWORD = new HealingSword("heal_sword");
     public static final Item TEST_ITEM = new TestingItem("tester_item", new PotionEffect(MobEffects.POISON,300,30,false,false));
-
+    public static final Item MOVEMENT_ITEM = new MovementItem("movement_item");
     //Tools
     public static final ItemSword EMERALD_SWORD = new ToolSword("emerald_sword", MATERIAL_EMERALD);
     public static final ItemSpade EMERALD_SPADE = new ToolSpade("emerald_shovel", MATERIAL_EMERALD);
