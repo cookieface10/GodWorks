@@ -25,6 +25,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class HealingSword extends ItemBase { //lol it's not even a actual sword but I'm to lazy to change this sutff. Deal with it owo.
     public HealingSword(String name) {
         super(name);
+        setMaxStackSize(1);
     }
     @Override
     public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer player, EnumHand handIn)
