@@ -36,14 +36,14 @@ public class ModItems {
 
     //Fancy items (items with special features)
     public static final Item HEALING_SWORD = new HealingSword("heal_sword");
-    public static final Item TEST_ITEM = new TestingItem("tester_item");
+    public static final Item TEST_ITEM = new TestingItem("tester_item", new PotionEffect(MobEffects.POISON,300,30,false,false));
 
     //Tools
     public static final ItemSword EMERALD_SWORD = new ToolSword("emerald_sword", MATERIAL_EMERALD);
     public static final ItemSpade EMERALD_SPADE = new ToolSpade("emerald_shovel", MATERIAL_EMERALD);
     public static final ItemPickaxe EMERALD_PICKAXE = new ToolPickaxe("emerald_pickaxe", MATERIAL_EMERALD);
     public static final ItemAxe EMERALD_AXE = new ToolAxe("emerald_axe", MATERIAL_EMERALD);
-
+    public static final Item GLASS_CANNON = new BowingBow("w", MATERIAL_EMERALD);
 
     //Armor
     public  static  final Item HELMET_EMERALD = new ArmorBase("helmet_emerald", ARMOR_EMERALD, 1, EntityEquipmentSlot.HEAD);
