@@ -51,6 +51,22 @@ public class MovementItem extends ItemBase {
                 return super.onItemRightClick(worldIn, player, hand); //A return method, since this method isn't a void
             }
 
+            if(player.isInWater())
+            {
+                player.getCooldownTracker().setCooldown(this, 5);
+                Vec3d look = player.getLookVec(); //Lets you check the coordinates the player is facing
+                player.setVelocity(look.x * 4, look.y * 4, look.z * 4); //setting the player's velocity towards the direction they are looking at
+                return super.onItemRightClick(worldIn, player, hand); //A return method, since this method isn't a void
+            }
+
+            if(player.isInLava())
+            {
+                player.getCooldownTracker().setCooldown(this, 60*20);
+                Vec3d look = player.getLookVec(); //Lets you check the coordinates the player is facing
+                player.setVelocity(look.x * 4, look.y * 4, look.z * 4); //setting the player's velocity towards the direction they are looking at
+                return super.onItemRightClick(worldIn, player, hand); //A return method, since this method isn't a void
+            }
+
             else
             {
                 Vec3d look = player.getLookVec(); //Lets you check the coordinates the player is facing

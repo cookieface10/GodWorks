@@ -13,7 +13,7 @@ public class FoodEffectBaseGlowing extends FoodBase{
     public FoodEffectBaseGlowing(String name, int amount, float saturation, boolean isAnimalFood, PotionEffect effect){
         super(name, amount, saturation, isAnimalFood);
         setAlwaysEdible();
-
+        setMaxStackSize(16);
         this.effect = effect;
     }
 
