@@ -40,6 +40,7 @@ public class ModItems {
     public static final Item TEST_ITEM = new TestingItem("tester_item", new PotionEffect(MobEffects.POISON,300,30,false,false));
     public static final Item MOVEMENT_ITEM = new MovementItem("movement_item");
     //Tools
+    public static final ItemHoe EMERALD_HOE = new ToolHoe("emerald_hoe",MATERIAL_EMERALD);
     public static final ItemSword EMERALD_SWORD = new ToolSword("emerald_sword", MATERIAL_EMERALD);
     public static final ItemSpade EMERALD_SPADE = new ToolSpade("emerald_shovel", MATERIAL_EMERALD);
     public static final ItemPickaxe EMERALD_PICKAXE = new ToolPickaxe("emerald_pickaxe", MATERIAL_EMERALD);

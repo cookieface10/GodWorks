@@ -22,7 +22,7 @@ public class BiomeInit
         BiomeManager.addBiome(biomeType, new BiomeManager.BiomeEntry(biome, 10));
         BiomeManager.addSpawnBiome(biome);
         System.out.println("Biome Added");
-        return biome;
+        return biome; //Tf is a biome!?!?!?!?!?!??!?!?!?!!?
     }
 
 

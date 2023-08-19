@@ -25,7 +25,7 @@ public class MovementItem extends ItemBase {
     boolean isActive = false;
     public MovementItem(String name) {
         super(name);
-        setMaxStackSize(999999999);
+        setMaxStackSize(1);
     }
 
 
